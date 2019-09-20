@@ -15,7 +15,7 @@ html,body
 body
 {
     vertical-align: center;
-    background: #05204d;
+    background: #F0F7D4;
 }
 img
 {
@@ -30,6 +30,12 @@ footer
 table
 {
     border:red solid 2px;
+    background: #bacce8;
+    vertical-align: center;
+}
+th
+{
+    background:#4424D6;
 }
 .middle-box
 {
@@ -48,4 +54,37 @@ table
 .rightside-box
 {
     float : right;
+}
+footer
+{
+    background: #110934;
+    position: fixed;
+    bottom: 0%;
+    color: white;
+}
+h1
+{
+    color: #110934;
+    text-align: center;
+    font-size: 3em;
+    font-family: monospace;
+}
+table,td,th
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+a{
+    color: #B2D732;
+}
+.attribute
+{
+    font-weight: bold;
+    background :
+}
+#header
+{
+    position: static; 
+    background: #B2D732;
+    padding 16px; 
 }
