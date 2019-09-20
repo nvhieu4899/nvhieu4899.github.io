@@ -79,6 +79,9 @@ table,td,th
 }
 a{
     color: #B2D732;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
 }
 .attribute
 {
@@ -89,5 +92,14 @@ a{
 {
     position: static; 
     background: #B2D732;
-    padding 16px; 
+    padding:  1px; 
+}
+.button
+{
+    background: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width
 }
