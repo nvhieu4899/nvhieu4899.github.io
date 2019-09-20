@@ -1,0 +1,51 @@
+html
+{
+    display:table;
+    margin: auto;
+    font-family: sans-serif;
+}
+img
+{
+    width: 400px;
+}
+html,body
+{
+    height: 100%;
+}
+body
+{
+    vertical-align: center;
+    background: #05204d;
+}
+img
+{
+    width: 400px;
+    float: left;
+    border: green solid 1px;
+}
+footer
+{
+    clear:both;
+}
+table
+{
+    border:red solid 2px;
+}
+.middle-box
+{
+    background: #bacce8;
+    width: 50%;
+}
+.leftside-box ,.rightside-box
+{
+    background: #3e4145;
+    width: 25%;
+}
+.leftside-box
+{
+    float: left;
+}
+.rightside-box
+{
+    float : right;
+}
