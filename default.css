@@ -26,6 +26,9 @@ img
 footer
 {
     clear:both;
+    width: 100%;
+    left:0px;
+    text-align: right;
 }
 table
 {
