@@ -1,88 +1,31 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<style>
-			.button {
-			  display: inline-block;
-			  border-radius: 5px;
-			  background-color: #f4511e;
-			  border: none;
-			  color: #FFFFFF;
-			  text-align: center;
-			  font-size: 28px;
-			  padding: 20px;
-			  width: 395px;
-			  transition: all 0.5s;
-			  cursor: pointer;
-			  margin: 5px;
-			}
+<html lang = "vi">
+    <link rel="icon" type="image/gif" href="./images/favicon.png" />
+    <link rel = "stylesheet" type ="text/css" href = "../../default.css">
+    <header>
+        <title>Hoang's Prifile</title>
+    </header>
+<body>
+    <div id ="header">    <h1>TRANG CÁ NHÂN CỦA HOÀNG</h1></div>
 
-			.button span {
-			  cursor: pointer;
-			  display: inline-block;
-			  position: relative;
-			  transition: 0.5s;
-			}
-
-			.button span:after {
-			  content: '\00ab';
-			  position: absolute;
-			  opacity: 0;
-			  top: 0;
-			  left: -20px;
-			  transition: 0.5s;
-			}
-
-			.button:hover span {
-			  padding-left: 25px;
-			}
-
-			.button:hover span:after {
-			  opacity: 1;
-			  left: 0;
-			}
-			.button:active {
-			  background-color: #3e8e41;
-			  box-shadow: 0 5px #666;
-			  transform: translateY(4px);
-			}
-		</style>
-		<a href = "../../default.html" >
-			<button class="button"; style="text-align: left">
-				<span>BACK TO GROUP'S SITE</span>
-			</button>
-		</a>
-		<title>Hoang's Profile</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-	</head>
-	
-	
-	<body style="font-family: arial, sans-serif;  width:100%;text-align:center; background-color: lightblue; ">
-		<div style="background-color: orange; ">
-			<h1>HOANG' S PROFILE</h1>
-		</div>
-		<div style="width:800px; margin:0 auto; font-size: 20px; ">
-			<div class="col-sm-4"><img src="./images/img.jpeg" style="width:300px;height:450px; "></div> 
-			<div class="col-sm-4", style = "text-align: left; padding-left: 110px; ">
-				<p>Full name:</p>
-				<p>Student ID:</p>
-				<p>Date of birth:</p>
-				<p>Email:</p>
-				<p>Phone number:</p>
-			</div>
-			<div class="col-sm-4", style = "text-align: left; ">
-				<p>Phạm Minh Hoàng</p>
-				<p>1712460</p>
-				<p>30-08-1999</p>
-				<p>hoangpm6814@gmail.com</p>
-				<p>0942 405 430</p>
-			</div>
-		</div>
-	</body>
-	
-	
+<img src = "./images/img.jpeg">
+    <div class = "profile-attribute">
+    <br><p>Full name:</p>
+    <p>STUDENT ID:</p>
+    <p>DoB:</p>
+    <p>Email:</p>
+    <p>Phone:</p>
+    </div>
+    <br>
+    <div class = "profile-info">
+    <p>Phạm Minh Hoàng</p>
+    <p>1712460</p>
+    <p>30/08/1999</p>
+    <p>hoangpm6814@gmail.com</p>
+    <p>0942405430</p>
+    </div>
+    <button onclick="window.location.href='../../default.html'">
+    Trở về trang chung
+    </button>
+    </body>
 </html>
