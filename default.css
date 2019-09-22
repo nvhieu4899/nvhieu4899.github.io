@@ -73,6 +73,7 @@ table,td,th
 {
     border: 1px solid black;
     border-collapse: collapse;
+	font-size: 35px;
 }
 a{
     color: #B2D732;
@@ -117,5 +118,5 @@ button:hover
 }
 #hinhchung
 {
-    width: 600px;
+    width: 606px;
 }
