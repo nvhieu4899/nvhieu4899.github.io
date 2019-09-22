@@ -58,13 +58,6 @@ th
 {
     float : right;
 }
-footer
-{
-    background: #110934;
-    position: fixed;
-    bottom: 0%;
-    color: white;
-}
 h1
 {
     color: #110934;
@@ -94,12 +87,26 @@ a{
     background: #B2D732;
     padding:  1px; 
 }
-.button
+button
 {
     background: green;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    width
+    width:100px;
+    height:40px;
+    position: fixed;
+    left:0%;
+    top:0%;
+}
+.profile-attribute
+{
+    position: absolute;
+    padding-left:450px;
+}
+.profile-info
+{
+    position: absolute;
+    padding-left:600px;
 }
