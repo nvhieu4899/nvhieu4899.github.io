@@ -7,6 +7,7 @@ html
 img
 {
     width: 400px;
+    border-radius:8px;
 }
 html,body
 {
@@ -87,6 +88,7 @@ a{
     position: static; 
     background: #B2D732;
     padding:  1px; 
+    font-size: 2em;
 }
 button
 {
