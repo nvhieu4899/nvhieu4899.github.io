@@ -25,10 +25,14 @@ img
 }
 footer
 {
+    position:fixed;
+    bottom: 0%;
     clear:both;
     width: 100%;
     left:0px;
     text-align: right;
+    background: #110934;
+    color: white;
 }
 table
 {
